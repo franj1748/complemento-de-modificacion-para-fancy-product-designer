@@ -49,17 +49,3 @@ document.body.addEventListener('click', (e) => {
 
 });
 
-
-/* 
-* Código inicial
-jQuery(document).ready(function(){
-    jQuery('body').on('click', '#cdm-aux-1', function(){
-        setTimeout(function(){
-          jQuery('#cdm-aux-0').animate({scrollLeft: '190' }, 1000);
-          jQuery('#cdm-aux-0').animate({scrollLeft: '0' }, 1000);
-        }, 1900);
-    });
-});
-*/
-
-
