@@ -1,0 +1,25 @@
+/* Estilos del frontend del plugin */
+
+/* Mensaje de cabecera en la página de configuración */
+.notice-info{
+    margin-top: 25px !important;
+}
+
+/* Primer titulo */
+.titulo-superior{
+    font-size: 50px !important;
+}
+
+/* Títulos de las secciones */
+.titulo-cabecera{
+    font-size: 25px !important;
+}
+
+/* Párrafos de las secciones */
+.inside{
+    font-size: 20px !important;
+}
+
+.inside-p{
+    font-size: 20px !important;
+}
