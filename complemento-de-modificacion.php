@@ -1,16 +1,16 @@
 <?php
 /**
- * @link              https://github.com/franj1748/complemento-de-personalizacion.git
+ * @link              https://github.com/franj1748/complemento-de-modificacion-para-fancy-product-designer.git
  * @since             1.0.0
  * @package           complemento-de-modificación
  *
  * @wordpress-plugin
  * Plugin Name:       Complemento de modificación
- * Plugin URI:        https://github.com/franj1748/complemento-de-personalizacion.git
+ * Plugin URI:        https://github.com/franj1748/complemento-de-modificacion-para-fancy-product-designer.git
  * Description:       Este completo personalizado permitirá hacer modificaciones específicas en la app web sin manipular los archivos del Core del WordPress.   
  * Version:           1.0.0
  * Author:            Francisco Elis
- * Author URI:        https://hagamosmarcas.com/
+ * Author URI:        https://www.linkedin.com/in/francisco-elis-24506b209
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       complemento-de-modificacion
