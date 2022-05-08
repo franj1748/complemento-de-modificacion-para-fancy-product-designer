@@ -7,8 +7,8 @@ let valorStorage = localStorage.getItem('visita');
 
 document.body.addEventListener('click', (e) => {
   if (e.target.classList.contains('upper-canvas') && valorStorage == 1 && document.querySelector('.fpd-show')){
-    let tercerHijo = $(".fpd-show div:nth-child(3)");
-    if (tercerHijo[0].scrollWidth > tercerHijo[0].clientWidth){
+    const tercerHijo = document.querySelector('.fpd-show:nth-child(3)');
+    if (tercerHijo.scrollWidth > tercerHijo.clientWidth){
       jQuery('.fpd-scroll-area').animate({scrollLeft: '500' }, 1000);
       jQuery('.fpd-scroll-area').animate({scrollLeft: '0' }, 1000);
       localStorage.setItem('visita', 2);
@@ -17,12 +17,12 @@ document.body.addEventListener('click', (e) => {
   }
 
   if (e.target.classList.contains('fpd-gt-next') || e.target.classList.contains('fpd-primary')){
-    let contadorTour = document.getElementsByClassName('fpd-gt-counter');
-    let pasoContador = contadorTour[0].innerHTML.split("/");
-    let pasoInicial = pasoContador[0];
-    let cantidadPasos = pasoContador[1];
-    let ventanaTour = document.getElementsByClassName('fpd-gt-step');
-    let cerrarTour = document.getElementsByClassName('fpd-gt-back');
+    const contadorTour  = document.getElementsByClassName('fpd-gt-counter'),
+          pasoContador  = contadorTour[0].innerHTML.split("/"),
+          pasoInicial   = pasoContador[0],
+          cantidadPasos = pasoContador[1],
+          ventanaTour   = document.getElementsByClassName('fpd-gt-step'),
+          cerrarTour    = document.getElementsByClassName('fpd-gt-back');
     
     if (e.target.className == 'fpd-gt-next fpd-btn fpd-primary'){
       ++pasoInicial; 
