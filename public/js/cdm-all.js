@@ -17,7 +17,7 @@ document.body.addEventListener('click', (e) => {
   }
 
   if (e.target.classList.contains('fpd-gt-next') || e.target.classList.contains('fpd-primary')){
-    const contadorTour  = document.getElementsByClassName('fpd-gt-counter'),
+    let   contadorTour  = document.getElementsByClassName('fpd-gt-counter'),
           pasoContador  = contadorTour[0].innerHTML.split("/"),
           pasoInicial   = pasoContador[0],
           cantidadPasos = pasoContador[1],
